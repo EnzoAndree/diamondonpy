@@ -107,8 +107,8 @@ print(clusters_df.head())
 
 # Bidirectional Best Hit analysis
 bbh_df = diamond.bidirectional_best_hit(
-    fasta1="db1.dmnd",
-    fasta2="db2.dmnd",
+    fasta1="db1.fasta",
+    fasta2="db2.fasta",
     evalue=1e-10
 )
 print(bbh_df.head())
