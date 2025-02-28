@@ -2,7 +2,7 @@
 
 <img src="img/diamondonpy.png" align="left" width="190" style="padding-right: 20px">
 
-A high-performance Python wrapper for the ultra-fast [DIAMOND](https://github.com/bbuchfink/diamond/) sequence alignment tool. This package provides a clean, Pythonic API for DIAMOND's powerful sequence search capabilities with seamless pandas integration for efficient bioinformatics data analysis and processing. Perfect for researchers and bioinformaticians working with large genomic datasets who need both speed and ease of use.
+A Python wrapper for the ultra-fast [DIAMOND](https://github.com/bbuchfink/diamond/) sequence alignment tool. This package provides a clean, Pythonic API for DIAMOND's powerful sequence search capabilities with seamless pandas integration for efficient bioinformatics data analysis and processing. Perfect for researchers and bioinformaticians working with large genomic datasets who need both speed and ease of use.
 
 ### ✨ Features
 - 🚀 Full support for all DIAMOND V commands
