@@ -228,4 +228,4 @@ Original publication to cite DIAMOND until v0.9.25:
 
 ## 📄 License
 
-This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE](/LICENSE) file for details.
+This project is licensed under the GNU General Public License v3 (GPLv3) - see the [LICENSE](/LICENSE) file for details.
