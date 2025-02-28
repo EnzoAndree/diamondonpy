@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diamondonpy"
+version = "0.1.0"
+description = "A Python wrapper for the DIAMOND bioinformatics tool"
+requires-python = ">=3.6"
+dependencies = [
+    "pandas>=1.0.0",
+    "numpy>=1.18.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0",
+    "pytest-mock>=3.0"
+]
+
+[project.scripts]
+diamondonpy = "diamondonpy.__main__:main"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-v -m 'not integration'"
+testpaths = ["tests"]
+python_files = "test_*.py"
+markers = [
+    "unit: mark a test as a unit test",
+    "integration: mark a test as an integration test"
+]
+
+[tool.coverage.run]
+source = ["diamondonpy"]
+omit = ["tests/*", "setup.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if __name__ == .__main__.:",
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:",
+] 

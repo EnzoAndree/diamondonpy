@@ -1,0 +1,5 @@
+qseqid,sseqid,pident,length,qstart,qend,sstart,send,evalue,bitscore,stitle
+protein1,domain1,100,41,85,125,3,43,8.43e-30,94.4,domain1 SH2 domain
+protein1,domain2,100,51,126,176,1,51,5.5e-34,105.0,domain2 Protein kinase domain
+protein2,domain3,100,49,34,82,1,49,3.47e-34,103.0,domain3 MAPK domain
+protein3,domain4,100,38,89,126,13,50,2.6e-27,84.0,domain4 p53 domain

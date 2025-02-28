@@ -1,0 +1,2 @@
+qseqid,sseqid,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,qframe,stitle
+contig1_cds1,sp|P0DTC2|SPIKE_SARS2,100,138,0,0,1,414,1,138,1.68e-105,283,1,sp|P0DTC2|SPIKE_SARS2 Spike glycoprotein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=S PE=1 SV=1
