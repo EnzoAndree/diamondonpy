@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="diamondonpy",
-    version="0.1.0",
+    version="0.1.1",
     description="A Python wrapper for the DIAMOND bioinformatics tool",
     author="Enzo Guerrero-Araya",
     packages=find_packages(),
