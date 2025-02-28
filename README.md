@@ -22,6 +22,12 @@ First, ensure you have DIAMOND installed and accessible in your PATH. Then insta
 pip install diamononpy
 ```
 
+For installation directly from the GitHub repository, use the following command:
+
+```bash
+pip install git+https://github.com/EnzoAndree/diamondonpy.git
+```
+
 For development installation (including test dependencies):
 
 ```bash
