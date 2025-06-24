@@ -1,6 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/diamondonpy.svg?icon=si%3Apython)](https://badge.fury.io/py/diamondonpy)
 
-# 💎 Diamononpy 🐍
+# 💎 Diamondonpy 🐍
    
 <img src="https://github.com/EnzoAndree/diamondonpy/blob/main/img/diamondonpy.png?raw=True" align="left" width="190" style="padding-right: 20px">
 
@@ -21,7 +21,7 @@ A Python wrapper for the ultra-fast [DIAMOND](https://github.com/bbuchfink/diamo
 First, ensure you have DIAMOND installed and accessible in your PATH. Then install this package:
 
 ```bash
-pip install diamononpy
+pip install diamondonpy
 ```
 
 For installation directly from the GitHub repository, use the following command:
@@ -41,7 +41,7 @@ pip install -e ".[dev]"
 ### Basic Usage
 
 ```python
-from diamononpy import Diamond
+from diamondonpy import Diamond
 
 # Initialize the wrapper
 diamond = Diamond()
@@ -197,10 +197,10 @@ To run tests:
 pytest
 
 # Run tests with coverage report
-pytest --cov=diamononpy
+pytest --cov=diamondonpy
 
 # Run tests with detailed coverage report
-pytest --cov=diamononpy --cov-report=term-missing
+pytest --cov=diamondonpy --cov-report=term-missing
 
 # Run tests verbosely
 pytest -v
