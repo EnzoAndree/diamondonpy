@@ -236,13 +236,14 @@ class Diamond:
             if isinstance(outfmt, str) and outfmt.startswith('6 '):
                 # Valid DIAMOND column names
                 valid_columns = {
-                    'qseqid', 'sseqid', 'pident', 'length', 'mismatch', 
-                    'gapopen', 'qstart', 'qend', 'sstart', 'send', 
-                    'evalue', 'bitscore', 'qcovhsp', 'qlen', 'slen',
-                    'qseq', 'sseq', 'qframe', 'stitle', 'salltitles',
-                    'qstrand', 'sstrand', 'btop', 'cigar', 'score',
-                    'full_qseq', 'full_sseq', 'qseq_translated', 'sseq_translated'
-                }
+                    "qseqid", "qlen", "sseqid", "sallseqid", "slen", "qstart", "qend", "sstart", 
+                    "send", "qseq", "qseq_gapped", "qseq_translated", "full_qseq", "full_qseq_mate", 
+                    "sseq", "sseq_gapped", "full_sseq", "evalue", "bitscore", "corrected_bitscore",
+                    "score", "length", "pident", "approx_pident", "nident", "mismatch", "positive", 
+                    "gapopen", "gaps", "ppos", "qframe", "btop", "cigar", "staxids", "sscinames", 
+                    "sskingdoms", "skingdoms", "sphylums", "stitle", "salltitles", "qcovhsp", "scovhsp", 
+                    "qtitle", "qqual", "full_qqual", "qstrand"
+                 }
                 custom_columns = outfmt.split(' ')[1:]
                 invalid_columns = [col for col in custom_columns if col not in valid_columns]
                 if invalid_columns:
